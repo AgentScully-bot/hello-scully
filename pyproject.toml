@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hello-scully"
+version = "0.1.0"
+description = "A CLI that greets Agent Scully with style"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+
+[project.scripts]
+hello-scully = "hello_scully.cli:main"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
