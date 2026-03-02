@@ -7,14 +7,14 @@ _(nothing blocked)_
 _(nothing in progress)_
 
 ## 🟢 Todo
-- [ ] Project scaffolding (pyproject.toml, src layout, README.md)
-- [ ] Write main app — CLI that prints greeting with Scully flair
-- [ ] Add --name flag for custom greetings (default: "Scully")
-- [ ] Write tests (pytest)
-- [ ] Add ruff config + lint pass
-- [ ] Set up GitHub Actions CI (lint + test)
-- [ ] Create GitHub repo and push
-- [ ] Verify CI passes on GitHub
+_(all done!)_
 
 ## ✅ Done
-_(nothing done yet)_
+- [x] Project scaffolding (pyproject.toml, src layout, README.md) — 2026-03-01
+- [x] Write main app — CLI that prints greeting with Scully flair — 2026-03-01
+- [x] Add --name flag for custom greetings (default: "Scully") — 2026-03-01
+- [x] Write tests (pytest) — 7 tests, all passing — 2026-03-01
+- [x] Add ruff config + lint pass — 2026-03-01
+- [x] Set up GitHub Actions CI (lint + test) — 2026-03-01
+- [x] Create GitHub repo and push — 2026-03-01
+- [x] Verify CI passes on GitHub — 2026-03-01 ✅
